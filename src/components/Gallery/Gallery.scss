@@ -1,0 +1,38 @@
+.Gallery {
+  display: grid;
+  place-items: center;
+  height: 250px;
+  margin: auto;
+  position: relative;
+  // width: 90%;
+}
+
+.Gallery-track {
+  display: flex;
+  // width: calc(250px * 22);
+  // border: 10px solid blue;
+}
+
+.Gallery-track--moving {
+  // animation: scroll 10s linear 1;
+  // animation-iteration-count: 1;
+}
+
+.Gallery-track--moving-reverse {
+  animation-direction: reverse;
+}
+
+.Gallery-track:hover {
+  animation-play-state: paused;
+}
+
+// @keyframes scroll {
+//   0% {
+//     transform: translateX(0);
+//   }
+
+//   100% {
+//     // transform: translateX(calc(-250px * 10));
+//     transform: translateX(-100%);
+//   }
+// }

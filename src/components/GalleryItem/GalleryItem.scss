@@ -1,0 +1,22 @@
+.GalleryItem {
+  height: 200px;
+  width: auto ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding: 10px;
+  // perspective: 0px;
+}
+
+.GalleryItem img {
+  height: 100%;
+  // width: 100%;
+  transition: 0.1s;
+}
+
+.GalleryItem img:hover {
+  // transform: translateZ(20px);
+  transform: scale(1.1);
+  transition: 0.5s;
+  // perspective: 10px;
+}
